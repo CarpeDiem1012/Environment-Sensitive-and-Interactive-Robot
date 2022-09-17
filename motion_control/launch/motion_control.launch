@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="motion_control" type="motion_control.py" name="motion_control" output="screen" respawn="true" />
+</launch>
+

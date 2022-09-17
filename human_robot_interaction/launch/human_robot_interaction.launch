@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="human_robot_interaction" type="hri_fsm_node.py" name="human_robot_interaction_node" required="false" output="screen" launch-prefix="gnome-terminal --command"/>
+    <node pkg="sound_play" name="soundplay_node" type="soundplay_node.py"/>
+     <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch" > 
+        <arg name="port" value="9090"/>
+        <arg name="output" value="log" />
+    </include>
+</launch>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<launch>
+    <node
+        pkg = "obstacle_avoidance"
+        type = "fake_map.py"
+        name = "fake_map"
+        output = "screen"/>
+
+    <node
+        pkg = "obstacle_avoidance"
+        type = "fake_waypoints.py"
+        name = "fake_waypoints"
+        output = "screen"/>
+
+    <node
+        pkg = "obstacle_avoidance"
+        type = "apf_multi_avoider.py"
+        name = "obstacle_avoidance"
+        output = "screen"/>
+</launch>

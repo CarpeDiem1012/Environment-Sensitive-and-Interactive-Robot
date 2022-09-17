@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+    <node
+    pkg = "obstacle_avoidance"
+    type = "apf_real_avoider.py"
+    name = "obstacle_avoidance"
+    respawn = "false"
+    output = "screen"
+    launch-prefix = "gnome-terminal --command"
+    />
+</launch>
