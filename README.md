@@ -1,10 +1,8 @@
-# Cor Multidisciplinary Project - Husky Simulation
+# Environment-Sensitive-and-Interactive-Robot - A Husky Simulation
 
 <img src="https://img.shields.io/badge/ROS%20version-melodic-blue.svg"/>
 
-Welcome to the Multidisciplinary Project - Husky Simulation repository! This repository aims to be a simple one stop shop for simulating Husky. All dependencies with their exact remote and version are listed in the `.rosinstall`. Using this it is possible to install locally.
-
-**Important:** The only officially supported Ubuntu/ROS version is Bionic/Melodic for the Husky simulation.
+**Important:** The only officially supported Ubuntu/ROS version is Bionic/Melodic for the Husky simulation. All dependencies with their exact remote and version are listed in the `.rosinstall`. Using this it is possible to install locally.
 
 ## Installation
 Human Robot Interaction Node --> `human_robot_interaction_node`
